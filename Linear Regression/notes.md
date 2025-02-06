@@ -35,15 +35,36 @@ For example, considering all essential features for predicting house price becom
 Most of the industry problems are based on this.
 
 
+## What is it useful for...?
+===>> 
+**Predictive Analysis:** It helps in predicting the value of the dependent variable based on the independent variables.
+**Understanding Relationships:** It provides insights into the strength of relationships between variables.
+**Trend Analysis:** It is commonly employed in the time series analysis to understand and predict trends.
+**Feature Importance:** The coefficients obtained from a linear regression model can indicate the features' importance.
+
+
+## Key parameters of Linear Regression
+===>> 
+**R-squared (Coefficient of Determination):**
+Measures the proportion of the variance in the dependent variable that is predictable from the independent variables. 
+It ranges from 0 to 1, where higher values indicate a better fit.
+**P-values:**
+Indicate the statistical significance of each coefficient, where low p-value (< 0.05) suggests that the independent 
+variable is significantly related to the dependent variable.
+**Standard Error:**
+Provides an estimate of the uncertainty of the coefficient estimates.
+**Residuals:**
+The differences between observed and predicted values.
+**F-statistic:**
+Employed to test the overall model's significance. It compares the model with no predictors (intercept only) to determine 
+if the model with predictors is significantly better.
+**Assumptions:**
+Linear regression assumes linearity, independence, homoscedasticity (constant variance of errors), 
+and normality of residuals. Violation of these assumptions could affect the validity of the model.
+
+
 ## 
 ===>> 
-
-
-
-
-
-
-
 
 
 
